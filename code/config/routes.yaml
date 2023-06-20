@@ -1,0 +1,9 @@
+api:
+    resource:
+        path: ../src/Controller/
+        namespace: App\Controller
+    type: attribute
+    prefix: api
+    name_prefix: api.
+    defaults:
+        _format: json

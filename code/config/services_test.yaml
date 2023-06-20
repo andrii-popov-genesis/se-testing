@@ -1,0 +1,6 @@
+services:
+    App\Tests\Unit\Service\CurrentDateFactory\TestCurrentDateFactory: ~
+    App\Service\CurrentDateFactory\CurrentDateFactoryInterface: '@App\Tests\Unit\Service\CurrentDateFactory\TestCurrentDateFactory'
+
+    App\Tests\Integration\Service\PostCreator\TestPostCreator: ~
+    App\Service\PostCreator\PostCreatorInterface: '@App\Tests\Integration\Service\PostCreator\TestPostCreator'
